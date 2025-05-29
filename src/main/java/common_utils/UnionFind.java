@@ -3,9 +3,9 @@ package common_utils;
 import java.util.Arrays;
 
 public class UnionFind {
-    private int [] ranks;
-    private int [] vertexes;
-    private int numOfComponents;
+    protected int [] ranks;
+    protected int [] vertexes;
+    protected int numOfComponents;
     public UnionFind(int n){
         if (n == 0) {
             throw new IllegalArgumentException("There must be more than zero vertexes in the graph");
